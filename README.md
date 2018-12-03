@@ -1,5 +1,6 @@
 # micro
 ##操作流程
+
 *在node上运行micro1
 *运行micro2
 *运行micro3
