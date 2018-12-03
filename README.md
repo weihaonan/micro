@@ -10,7 +10,10 @@
 <h3>重点代码</h3>
 <ul>
 	<li>micro2和micro3服务webpack配置output需要加入library字段，在其webpack打包时会将其打包成一个模块，以便其他模块调用
-	```javascript
+	
+	</li>
+</ul>
+```javascript
 		entry: {
 		    micro3: './src/main.js'
 	    },
@@ -22,5 +25,3 @@
 		library: 'micro3'
 	    },
 	  ```
-	</li>
-</ul>
